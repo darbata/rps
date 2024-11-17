@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 50vh;
+	margin: 0;
+
+	gap: 16px;
+}
+
+.score {
+	font-size: 36px;
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+
+	margin-bottom: 150px;
+}
+
+.controls {
+	margin-bottom: 150px;
+}
+
+button {
+	height: 50px;
+	width: 250px;
+}
